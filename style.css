@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+
+table {
+  font-family: "VT323", monospace;
+  width: 15%;
+  padding: 0px;
+
+  color: black;
+  border: 10px solid black;
+}
+th {
+  cursor: pointer;
+
+  font-size: 30px;
+  color: black;
+  border: 4px solid black;
+}
+td {
+  font-size: 25px;
+  font-family: "VT323", monospace;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+}
+.title {
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+  margin: 6%;
+  padding: 0%;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-size: 40px;
+}
+.container::-webkit-scrollbar {
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid black;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+  border-radius: 6px;
+}
+
+.t {
+  border: 6px solid black;
+  border-top-left-radius: 40px;
+  padding: 0;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 0px;
+  height: 80px;
+  background-color: rgb(248, 19, 19);
+}
+
+.img {
+  display: block;
+  padding: 15px 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.box {
+  background-color: rgb(232, 238, 238);
+  width: 100%;
+  height: 50px;
+}
+.container {
+  border-top-left-radius: 40px;
+
+  overflow: scroll;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  transform: translate(-50, -50);
+  width: 450px;
+  height: 500px;
+}
+body {
+  background: #90d0ee;
+  color: rgb(255, 255, 255);
+}
